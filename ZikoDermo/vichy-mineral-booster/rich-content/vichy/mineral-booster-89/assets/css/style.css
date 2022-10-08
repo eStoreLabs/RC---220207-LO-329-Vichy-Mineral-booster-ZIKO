@@ -1,0 +1,986 @@
+@charset "UTF-8";
+#es-vichy.es-vichy {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #2b2a29;
+  background-color: #fff;
+}
+#es-vichy.es-vichy * {
+  box-sizing: border-box;
+}
+#es-vichy.es-vichy h2,
+#es-vichy.es-vichy h3,
+#es-vichy.es-vichy h4,
+#es-vichy.es-vichy h5 {
+  font-family: 'Spartan', sans-serif;
+  color: #111;
+}
+#es-vichy.es-vichy .es-kv {
+  background: #fff;
+}
+#es-vichy.es-vichy .es-kv__images {
+  background: url('/rich-content/vichy/mineral-booster-89/assets/images/packshot.png')
+    top/cover no-repeat;
+  height: 450px;
+  background-size: contain;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  flex: 1;
+  flex-basis: 50%;
+  background-size: contain;
+}
+#es-vichy.es-vichy .es-kv__animated-item {
+  margin-bottom: 40px;
+  width: 80%;
+  max-width: 339px;
+}
+#es-vichy.es-vichy .es-kv__recommendation {
+  display: flex;
+  flex-direction: column;
+}
+#es-vichy.es-vichy .es-kv__text {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  margin: -45px 10px 0 0;
+  z-index: 1;
+}
+#es-vichy.es-vichy .es-kv__text .es-kv__heading {
+  font-weight: 300;
+  margin-left: 10px;
+}
+#es-vichy.es-vichy .es-kv__disclaimer {
+  font-size: 8px;
+  text-align: center;
+  margin: 30px 10px 0 10px;
+}
+#es-vichy.es-vichy .es-kv__label {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+#es-vichy.es-vichy .es-kv__header {
+  padding: 130px 10px 10px 10px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-kv__animated-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: slidedown 0.6s ease forwards;
+  animation: slidedown 0.6s ease forwards;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+#es-vichy.es-vichy .es-kv__disc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 9px;
+  text-align: center;
+}
+#es-vichy.es-vichy .es-kv__photo {
+  position: relative;
+}
+#es-vichy.es-vichy .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-kv__img--photo {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+#es-vichy.es-vichy .es-kv__content {
+  background: url('/rich-content/vichy/mineral-booster-89/assets/images/photo.png')
+    center/cover no-repeat;
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 535px;
+}
+#es-vichy.es-vichy .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.5;
+  padding: 32px 10px;
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: right;
+  opacity: 0;
+  -webkit-animation: slideright 0.6s ease forwards;
+  animation: slideright 0.6s ease forwards;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+#es-vichy.es-vichy .es-kv__title span {
+  background-color: #0178b8;
+  padding: 7px 5px 1px 5px;
+}
+#es-vichy.es-vichy .es-info {
+  padding: 60px 16px 32px 16px;
+  margin-bottom: 32px;
+  max-width: 730px;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-info__border {
+  padding: 24px 16px;
+  position: relative;
+  margin-bottom: 60px;
+}
+#es-vichy.es-vichy .es-info__border::before {
+  content: url('/rich-content/vichy/mineral-booster-89/assets/images/border-1.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#es-vichy.es-vichy .es-info__border::after {
+  content: url('/rich-content/vichy/mineral-booster-89/assets/images/border-2.png');
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#es-vichy.es-vichy .es-info__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-info__title span {
+  font-weight: 700;
+  padding-top: 16px;
+  display: block;
+}
+#es-vichy.es-vichy .es-info__subtitle {
+  font-weight: bold;
+}
+#es-vichy.es-vichy .es-info__desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.4;
+}
+#es-vichy.es-vichy .es-info__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+#es-vichy.es-vichy .es-info__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-info__features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -8px;
+}
+#es-vichy.es-vichy .es-info__single {
+  padding: 0 8px;
+  width: 100%;
+}
+#es-vichy.es-vichy .es-info__single:not(:last-child) {
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-info__icon {
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-use {
+  margin-top: 40px;
+  background: url('/rich-content/vichy/mineral-booster-89/assets/images/bg-1.png')
+    no-repeat;
+  background-position: left bottom;
+  min-height: 900px;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-use__content {
+  max-width: 730px;
+  margin: 50px auto 0 auto;
+}
+#es-vichy.es-vichy .es-use__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 22px;
+  padding-bottom: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-use__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#es-vichy.es-vichy .es-use__item {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  position: relative;
+}
+#es-vichy.es-vichy .es-use__item::before {
+  content: '●';
+  position: absolute;
+  color: #0178b8;
+  top: 0;
+  left: 0;
+}
+#es-vichy.es-vichy .es-banner {
+  margin-bottom: 64px;
+}
+#es-vichy.es-vichy .es-banner__border {
+  background: linear-gradient(45deg, #28537e, #0178b8);
+  padding: 32px 16px;
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-banner__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+#es-vichy.es-vichy .es-banner__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#es-vichy.es-vichy .es-banner__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-banner__single:not(:last-child) {
+  margin-bottom: 24px;
+}
+#es-vichy.es-vichy .es-banner__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#es-vichy.es-vichy .es-banner__text--number {
+  font-size: 40px;
+  line-height: 1;
+}
+#es-vichy.es-vichy .es-banner__text span {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  top: -8px;
+}
+#es-vichy.es-vichy .es-banner__disclaimer {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 9px;
+  text-align: center;
+}
+#es-vichy.es-vichy .es-ingr {
+  margin-bottom: 64px;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-ingr__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-ingr__label {
+  white-space: nowrap;
+}
+#es-vichy.es-vichy .es-ingr__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 12px;
+  margin: 0 -24px;
+}
+#es-vichy.es-vichy .es-ingr__single {
+  max-width: 246px;
+  padding: 0 12px;
+}
+#es-vichy.es-vichy .es-ingr__single:not(:last-child) {
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-ingr__image {
+  margin-bottom: 24px;
+}
+#es-vichy.es-vichy .es-ingr__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-ingr__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  text-align: center;
+}
+#es-vichy.es-vichy .es-benefits {
+  background: url('/rich-content/vichy/mineral-booster-89/assets/images/bg-3.png')
+    no-repeat;
+  background-position: 90% bottom;
+  min-height: 1100px;
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-benefits__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 22px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+#es-vichy.es-vichy .es-benefits__container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8px;
+  margin: 0 -16px;
+}
+#es-vichy.es-vichy .es-benefits__disclaimer {
+  font-size: 9px;
+  text-align: center;
+  margin-top: 50px;
+}
+#es-vichy.es-vichy .es-benefits__single {
+  padding: 0 8px;
+  width: 200px;
+}
+#es-vichy.es-vichy .es-benefits__single:not(:last-child) {
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-benefits__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-benefits__icon {
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-benefits__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-align: center;
+  font-size: 13px;
+}
+#es-vichy.es-vichy .es-rev-banner {
+  margin-bottom: 64px;
+}
+#es-vichy.es-vichy .es-rev-banner__border {
+  background: linear-gradient(45deg, #28537e, #0178b8);
+  margin-bottom: 32px;
+}
+#es-vichy.es-vichy .es-rev-banner__content {
+  padding: 32px 16px;
+}
+#es-vichy.es-vichy .es-rev-banner__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+#es-vichy.es-vichy .es-rev-banner__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+}
+#es-vichy.es-vichy .es-rev-banner__item {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  font-size: 12px;
+}
+#es-vichy.es-vichy .es-rev-banner__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-cross {
+  padding: 0 16px;
+}
+#es-vichy.es-vichy .es-cross__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+#es-vichy.es-vichy .es-cross__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  margin: 0 -16px;
+}
+#es-vichy.es-vichy .es-cross__photo--desktop {
+  display: none;
+}
+#es-vichy.es-vichy .es-cross__packshot {
+  position: relative;
+  z-index: 1;
+}
+#es-vichy.es-vichy .es-cross__packshot--1::before {
+  position: absolute;
+  content: '1';
+  font-family: 'Roboto';
+  color: #ebebeb;
+  font-size: 230px;
+  top: -50px;
+  left: -70px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-vichy.es-vichy .es-cross__packshot--2::before {
+  position: absolute;
+  content: '2';
+  font-family: 'Roboto';
+  color: #ebebeb;
+  font-size: 230px;
+  top: -50px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-vichy.es-vichy .es-cross__packshot--3::before {
+  position: absolute;
+  content: '3';
+  font-family: 'Roboto';
+  color: #ebebeb;
+  font-size: 230px;
+  top: -50px;
+  left: -60px;
+  line-height: 1;
+  z-index: -1;
+}
+#es-vichy.es-vichy .es-cross__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-vichy.es-vichy .es-cross__single {
+  max-width: 250px;
+  margin-bottom: 32px;
+  padding: 0 8px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#es-vichy.es-vichy .es-cross__single:hover .es-cross__icon {
+  transform: scale(1.2);
+}
+#es-vichy.es-vichy .es-cross__wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+#es-vichy.es-vichy .es-cross__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-cross__subtitle strong {
+  display: block;
+}
+#es-vichy.es-vichy .es-cross__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-vichy.es-vichy .es-cross__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  color: #fff;
+  background: #0178b8;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 24px;
+  margin-bottom: 16px;
+  border: 1px solid #0178b8;
+  transition: all 0.3s ease;
+}
+#es-vichy.es-vichy .es-cross__link:hover {
+  color: #0178b8;
+  background: #fff;
+}
+@media screen and (min-width: 0px) {
+  #es-vichy.es-vichy {
+    max-width: 290px;
+  }
+}
+@media screen and (min-width: 461px) {
+  #es-vichy.es-vichy {
+    max-width: 440px;
+  }
+  #es-vichy.es-vichy .es-kv__images {
+    height: 600px;
+  }
+  #es-vichy.es-vichy .es-ingr__container {
+    margin: 0 -54px;
+  }
+  #es-vichy.es-vichy .es-benefits {
+    min-height: 867px;
+  }
+  #es-vichy.es-vichy .es-benefits__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+  #es-vichy.es-vichy .es-benefits__title {
+    max-width: 455px;
+  }
+}
+@media screen and (min-width: 720px) {
+  #es-vichy.es-vichy .es-kv__animated-items {
+    width: 60%;
+  }
+  #es-vichy.es-vichy .es-kv__images {
+    background: url(/rich-content/vichy/mineral-booster-89/assets/images/packshot.png)
+      106% / cover no-repeat;
+  }
+}
+@media screen and (min-width: 741px) {
+  #es-vichy.es-vichy {
+    max-width: 480px;
+  }
+  #es-vichy.es-vichy .es-kv__animated-items {
+    width: 70%;
+  }
+  #es-vichy.es-vichy .es-kv__images {
+    background: url(/rich-content/vichy/mineral-booster-89/assets/images/packshot.png)
+      90% / cover no-repeat;
+  }
+}
+@media screen and (min-width: 1241px) {
+  #es-vichy.es-vichy {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 425px) {
+  #es-vichy.es-vichy .es-kv__header {
+    padding: 180px 10px 0 10px;
+  }
+  #es-vichy.es-vichy .es-kv__title {
+    padding: 32px 24px;
+    font-size: 23px;
+  }
+  #es-vichy.es-vichy .es-benefits {
+    background-position: right bottom;
+  }
+}
+@media screen and (min-width: 560px) {
+  #es-vichy.es-vichy .es-cross__container {
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  #es-vichy.es-vichy .es-cross__photo--desktop {
+    display: block;
+  }
+  #es-vichy.es-vichy .es-cross__packshot {
+    display: none;
+  }
+  #es-vichy.es-vichy .es-cross__single {
+    max-width: 33%;
+  }
+  #es-vichy.es-vichy .es-cross__subtitle {
+    min-height: 44px;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 720px) {
+  #es-vichy.es-vichy .es-ingr__single {
+    width: 50%;
+  }
+  #es-vichy.es-vichy .es-kv {
+    display: flex;
+  }
+  #es-vichy.es-vichy .es-kv__images {
+    background-size: cover;
+    height: 535px;
+  }
+  #es-vichy.es-vichy .es-kv__animated-item {
+    margin-bottom: 0;
+    width: auto;
+  }
+  #es-vichy.es-vichy .es-kv__content {
+    height: 100%;
+  }
+  #es-vichy.es-vichy .es-kv__photo {
+    order: -1;
+    flex: 1;
+    flex-basis: 50%;
+  }
+  #es-vichy.es-vichy .es-kv__title {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-vichy.es-vichy .es-info__border {
+    margin-bottom: 100px;
+  }
+  #es-vichy.es-vichy .es-info__single {
+    width: 30%;
+  }
+  #es-vichy.es-vichy .es-use {
+    background-position: bottom;
+    margin-top: 0;
+    min-height: 681px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  #es-vichy.es-vichy .es-use__content {
+    padding-top: 0;
+    max-width: 300px;
+    margin-right: -16%;
+    margin-top: -40px;
+  }
+  #es-vichy.es-vichy .es-banner {
+    background: url('/rich-content/vichy/mineral-booster-89/assets/images/bg-2.png')
+      no-repeat center;
+    min-height: 326px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  #es-vichy.es-vichy .es-banner__content {
+    max-width: 590px;
+    margin-bottom: 16px;
+  }
+  #es-vichy.es-vichy .es-banner__disclaimer {
+    margin-left: 50px;
+  }
+  #es-vichy.es-vichy .es-banner__container {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #es-vichy.es-vichy .es-banner__single:not(:last-child) {
+    margin-bottom: 0;
+  }
+  #es-vichy.es-vichy .es-banner__border {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #es-vichy.es-vichy .es-banner__text {
+    font-size: 12px;
+  }
+  #es-vichy.es-vichy .es-banner__text--number {
+    font-size: 25px;
+  }
+  #es-vichy.es-vichy .es-banner__text span {
+    font-size: 20px;
+    top: -8px;
+  }
+  #es-vichy.es-vichy .es-ingr {
+    margin-bottom: 0;
+  }
+  #es-vichy.es-vichy .es-ingr__title {
+    margin-bottom: 64px;
+  }
+  #es-vichy.es-vichy .es-ingr__container {
+    max-width: 730px;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+  }
+  #es-vichy.es-vichy .es-ingr__single {
+    padding: 0;
+    max-width: 230px;
+  }
+  #es-vichy.es-vichy .es-ingr__single:not(:last-child) {
+    margin-bottom: 0;
+  }
+  #es-vichy.es-vichy .es-rev-banner {
+    background: url('/rich-content/vichy/mineral-booster-89/assets/images/bg-4.png')
+      no-repeat center;
+    min-height: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  #es-vichy.es-vichy .es-rev-banner__border {
+    margin-bottom: 0;
+  }
+  #es-vichy.es-vichy .es-rev-banner__content {
+    padding: 32px 54px;
+    max-width: 365px;
+  }
+  #es-vichy.es-vichy .es-rev-banner__single:first-child {
+    margin-bottom: 0;
+  }
+  #es-vichy.es-vichy .es-cross__subtitle {
+    min-height: 54px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1001px) {
+  #es-vichy.es-vichy {
+    max-width: 571px;
+  }
+  #es-vichy.es-vichy .es-kv__images {
+    background: url(/rich-content/vichy/mineral-booster-89/assets/images/packshot.png)
+      top/cover no-repeat;
+  }
+  #es-vichy.es-vichy .es-kv__animated-items {
+    width: 95%;
+  }
+  #es-vichy.es-vichy .es-use__content {
+    margin-right: -9%;
+  }
+  #es-vichy.es-vichy .es-banner {
+    background-position-x: 60%;
+  }
+  #es-vichy.es-vichy .es-banner__border {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 920px) {
+  #es-vichy.es-vichy .es-banner__disclaimer {
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 820px) {
+  #es-vichy.es-vichy .es-info__features {
+    width: calc(100% + 100px);
+    margin-left: -50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-vichy.es-vichy .es-benefits {
+    margin-top: -100px;
+    min-height: 668px;
+    background-position: 52% bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #es-vichy.es-vichy .es-benefits__content {
+    margin-left: -63px;
+  }
+  #es-vichy.es-vichy .es-benefits__disclaimer {
+    margin-top: 0;
+    transform: translateY(140px);
+  }
+  #es-vichy.es-vichy .es-benefits__content {
+    max-width: 523px;
+  }
+  #es-vichy.es-vichy .es-benefits__single {
+    flex: 1 50%;
+    max-width: none;
+    max-width: 43%;
+  }
+}
+
+@-webkit-keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideright {
+  from {
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media screen and (min-width: 768px) {
+  #es-vichy.es-vichy .es-banner__content {
+    padding-top: 48px;
+  }
+  #es-vichy.es-vichy .es-ingr__single:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+#es-vichy.es-vichy .es-cross__packshot--1 {
+  max-width: 128px;
+}
+
+#es-vichy.es-vichy .es-cross__packshot--2 {
+  max-width: 175px;
+}
+
+#es-vichy.es-vichy .es-cross__packshot--3 {
+  max-width: 190px;
+}
+
+.es-ingr__image {
+  position: relative;
+}
+.es-ingr__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.66);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  text-align: center;
+} /*# sourceMappingURL=style.css.map */
